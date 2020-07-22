@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+{% block content %}
+<img src="/static/images/fake_news.jpg">
+<p></p>
+<p></p>
+<p> Hello there! This web application intends to detect fake news using machine learning. The machine learning model
+    used in this application was trained using a dataset of 40,000+ news articles comprising of fake and real news
+    stories. The model has achieved an accuracy of 99.45% thanks in part by utilizing GloVe word vectors and a long
+    short-term
+    memory (LSTM) learning architecture. </p>
+
+<p>Please consult the following link to discover how the model was trained: (<a href="URL">https://github.com/maldonadojsm/FakeNewsClassifier</a>).
+</p>
+<p>Dataset Used: (<a href="URL">https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset</a></p>
+<p>I hope you have fun!</p>
+
+{%  endblock content %}

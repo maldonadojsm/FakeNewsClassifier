@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+      <h1>Detect Fake News</h1>
+      Please provide a news article URL:
+      <br>
+      <br>
+      <form action = "/classify_news" method = "POST"
+         enctype = "multipart/form-data">
+         <input type = "text" name = "url_page" />
+         <input type = "submit"/>
+      </form>
+{% endblock content  %}

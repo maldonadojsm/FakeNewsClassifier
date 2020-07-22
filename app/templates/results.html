@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2>Results</h2>
+<p></p>
+<h3> Probability the news story isn't fake news: {{prediction}}%.</h3>
+<p></p>
+<img src="{{img}}">
+<p></p>
+<h4>{{title}}</h4>
+<p>{{text}}</p>
+{% endblock content %}
