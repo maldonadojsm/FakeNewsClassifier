@@ -1,4 +1,4 @@
-# Fake News Classifier
+# Gutenberg: A Fake News Classifier
 
 This web application intends to detect fake news using machine learning. The machine learning model
 used in this application was trained using a dataset of 40,000+ news articles comprising of fake and real news
