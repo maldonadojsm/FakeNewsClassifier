@@ -33,3 +33,9 @@ The model was trained using a Kaggle Data set of 40,000+ news articles comprisin
 7. **save_models:** Stores trained LSTM models
 8. **app:** Contains Flask App that will serve trained model.
 
+
+**IMPORTANT: If you're having issues loading the Jupyter notebook in GitHub, copy the http link of notebook and paste in https://nbviewer.jupyter.org/**
+
+
+Have Fun!
+
