@@ -1,5 +1,7 @@
 # Gutenberg: A Fake News Classifier
 
+Hello! Have you ever wondered if what you're reading is fake news? Lets find out with Machine Learning!
+
 This web application intends to detect fake news using machine learning. The machine learning model
 used in this application was trained using a dataset of 40,000+ news articles comprising of fake and real news
 stories. The model has achieved an accuracy of 99.45% thanks in part by utilizing GloVe word vectors and a long
