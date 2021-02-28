@@ -10,6 +10,10 @@ I constructed a Recurrent Neural Network using **TensorFlow & Keras** which atte
 
 The model was trained using a Kaggle Data set of 40,000+ news articles comprising of fake and real news articles.
 
+## How is the model served?
+
+I currently serve the model via a simple Flask application. Users are prompted to provide a URL link pointing to a news article and Gutenberg does the rest. 
+
 **https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset**
 
 
