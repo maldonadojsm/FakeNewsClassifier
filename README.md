@@ -7,10 +7,10 @@ used in this application was trained using a dataset of 40,000+ news articles co
 stories. The model has achieved an accuracy of 99.45% thanks in part by utilizing GloVe word vectors and a long
 short-term memory (LSTM) learning architecture.
 
-## Docker Image
-
     
-## Kaggle Dataset
+## How was the model trained?
+
+The model was trained using a Kaggle Data set 
 
 **https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset**
 
